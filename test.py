@@ -66,11 +66,6 @@ agg_priv = st.sidebar.slider("내부 대역 집계 프리픽스(/n)", min_value=
 agg_pub = st.sidebar.slider("외부 대역 집계 프리픽스(/n)", min_value=16, max_value=32, value=24)
 max_rows = st.sidebar.number_input("최대 처리 행 수(성능보정)", min_value=1000, max_value=500000, value=50000, step=1000)
 
-use_llm = st.sidebar.checkbox("LLM 요약 사용(OpenAI)", value=bool(OPENAI_API_KEY))
-api_key_input = st.sidebar.text_input("OpenAI API Key", value=OPENAI_API_KEY, type="password") if use_llm else ""
-model_name = st.sidebar.selectbox("모델", ["gpt-4o-mini", "o4-mini"], index=0) if use_llm else "gpt-4o-mini"
-temperature = st.sidebar.slider("Temperature", 0.0, 1.0, 0.3, 0.05) if use_llm else 0.3
-
 with st.sidebar.expander("컬럼 매핑(자동 감지, 필요시 수동 변경)"):
     st.write("일반적인 FortiGate 컬럼 별칭을 자동 인식합니다. 필요 시 직접 선택하세요.")
 
@@ -350,3 +345,4 @@ else:
 
 # --------------------------------- Footer ------------------------------------
 st.caption("© 2025 NetSketch demo — 로그 구조가 달라도 컬럼 매핑으로 대응할 수 있습니다. 성능 문제 시 '최대 처리 행 수'를 줄이세요.")
+
