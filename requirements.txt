@@ -1,6 +1,7 @@
 streamlit
-openai>=1.40.0
+pandas
+networkx
+pyvis
+jinja2
+openai>=1.20.0,<2
 httpx<0.28
-streamlit>=1.33
-
-
