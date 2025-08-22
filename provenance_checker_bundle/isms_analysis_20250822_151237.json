@@ -1,0 +1,276 @@
+{
+  "document_analysis": {
+    "analyzed_at": "2025-08-22T15:12:14.781846",
+    "total_sections_found": 24,
+    "total_sections_required": 28,
+    "compliance_score": 85.71,
+    "missing_sections": [
+      "물리적보안: 접근 통제",
+      "물리적보안: 환경 보호",
+      "물리적보안: 자산 보호",
+      "물리적보안: 운반 및 폐기"
+    ],
+    "weak_sections": [
+      {
+        "section": "물리적보안",
+        "score": 0.0,
+        "issues": [
+          "대부분의 필수 섹션이 누락됨",
+          "관련 내용이 부족함"
+        ]
+      }
+    ],
+    "recommendations": [
+      "'인적보안' 섹션의 구체적인 내용을 추가해야 합니다.",
+      "'물리적보안' 섹션을 대폭 보완해야 합니다. 누락된 섹션: 접근 통제, 환경 보호, 자산 보호, 운반 및 폐기",
+      "'물리적보안' 섹션의 구체적인 내용을 추가해야 합니다.",
+      "'기술적보안' 섹션의 구체적인 내용을 추가해야 합니다."
+    ]
+  },
+  "section_analysis": {
+    "정보보호정책": {
+      "requirement_name": "정보보호정책",
+      "description": "조직의 정보보호 방침과 목표",
+      "required_sections": [
+        "정책 목적",
+        "적용 범위",
+        "책임과 권한",
+        "정책 검토 및 개정 절차"
+      ],
+      "found_sections": [
+        "정책 목적",
+        "적용 범위",
+        "책임과 권한",
+        "정책 검토 및 개정 절차"
+      ],
+      "missing_sections": [],
+      "sections_found": 4,
+      "total_sections": 4,
+      "strength_score": 1.0,
+      "content_strength": 0.5,
+      "identified_issues": [],
+      "keywords_used": [
+        "정보보호",
+        "보안정책",
+        "방침",
+        "목표",
+        "책임",
+        "권한"
+      ]
+    },
+    "정보보호조직": {
+      "requirement_name": "정보보호조직",
+      "description": "정보보호 업무를 담당하는 조직 구성",
+      "required_sections": [
+        "조직도",
+        "역할과 책임",
+        "담당자 지정",
+        "교육 계획"
+      ],
+      "found_sections": [
+        "조직도",
+        "역할과 책임",
+        "담당자 지정",
+        "교육 계획"
+      ],
+      "missing_sections": [],
+      "sections_found": 4,
+      "total_sections": 4,
+      "strength_score": 1.0,
+      "content_strength": 0.667,
+      "identified_issues": [],
+      "keywords_used": [
+        "조직",
+        "역할",
+        "책임",
+        "담당자",
+        "교육",
+        "훈련"
+      ]
+    },
+    "인적보안": {
+      "requirement_name": "인적보안",
+      "description": "직원의 정보보안 의식과 행동 규범",
+      "required_sections": [
+        "채용 시 보안",
+        "재직 중 보안",
+        "퇴직 시 보안",
+        "보안 서약서"
+      ],
+      "found_sections": [
+        "채용 시 보안",
+        "재직 중 보안",
+        "퇴직 시 보안",
+        "보안 서약서"
+      ],
+      "missing_sections": [],
+      "sections_found": 4,
+      "total_sections": 4,
+      "strength_score": 1.0,
+      "content_strength": 0.333,
+      "identified_issues": [],
+      "keywords_used": [
+        "인적보안",
+        "채용",
+        "재직",
+        "퇴직",
+        "서약서",
+        "교육"
+      ]
+    },
+    "물리적보안": {
+      "requirement_name": "물리적보안",
+      "description": "물리적 접근 통제 및 환경 보호",
+      "required_sections": [
+        "접근 통제",
+        "환경 보호",
+        "자산 보호",
+        "운반 및 폐기"
+      ],
+      "found_sections": [],
+      "missing_sections": [
+        "접근 통제",
+        "환경 보호",
+        "자산 보호",
+        "운반 및 폐기"
+      ],
+      "sections_found": 0,
+      "total_sections": 4,
+      "strength_score": 0.0,
+      "content_strength": 0.0,
+      "identified_issues": [
+        "대부분의 필수 섹션이 누락됨",
+        "관련 내용이 부족함"
+      ],
+      "keywords_used": [
+        "물리적보안",
+        "접근통제",
+        "환경보호",
+        "자산",
+        "운반",
+        "폐기"
+      ]
+    },
+    "기술적보안": {
+      "requirement_name": "기술적보안",
+      "description": "기술적 보안 대책 및 접근 통제",
+      "required_sections": [
+        "접근 통제",
+        "암호화",
+        "네트워크 보안",
+        "악성코드 방지"
+      ],
+      "found_sections": [
+        "접근 통제",
+        "암호화",
+        "네트워크 보안",
+        "악성코드 방지"
+      ],
+      "missing_sections": [],
+      "sections_found": 4,
+      "total_sections": 4,
+      "strength_score": 1.0,
+      "content_strength": 0.167,
+      "identified_issues": [
+        "관련 내용이 부족함"
+      ],
+      "keywords_used": [
+        "기술적보안",
+        "접근통제",
+        "암호화",
+        "네트워크",
+        "악성코드",
+        "방화벽"
+      ]
+    },
+    "업무연속성": {
+      "requirement_name": "업무연속성",
+      "description": "재해 및 장애 시 업무 연속성 보장",
+      "required_sections": [
+        "재해 복구 계획",
+        "업무 연속성 계획",
+        "정기 점검",
+        "훈련"
+      ],
+      "found_sections": [
+        "재해 복구 계획",
+        "업무 연속성 계획",
+        "정기 점검",
+        "훈련"
+      ],
+      "missing_sections": [],
+      "sections_found": 4,
+      "total_sections": 4,
+      "strength_score": 1.0,
+      "content_strength": 0.5,
+      "identified_issues": [],
+      "keywords_used": [
+        "업무연속성",
+        "재해복구",
+        "백업",
+        "복구",
+        "점검",
+        "훈련"
+      ]
+    },
+    "법적준수": {
+      "requirement_name": "법적준수",
+      "description": "관련 법령 및 규정 준수",
+      "required_sections": [
+        "개인정보보호",
+        "전자금융거래",
+        "정보통신망",
+        "준수 점검"
+      ],
+      "found_sections": [
+        "개인정보보호",
+        "전자금융거래",
+        "정보통신망",
+        "준수 점검"
+      ],
+      "missing_sections": [],
+      "sections_found": 4,
+      "total_sections": 4,
+      "strength_score": 1.0,
+      "content_strength": 0.5,
+      "identified_issues": [],
+      "keywords_used": [
+        "법적준수",
+        "개인정보",
+        "전자금융",
+        "정보통신망",
+        "준수",
+        "점검"
+      ]
+    }
+  },
+  "reference_comparison": {
+    "reference_documents_used": [
+      "ISMS-P_ACME_Report_v1.0.pdf",
+      "국가정보보안기본지침(23.1.31).pdf",
+      "소프트웨어_보안약점_진단가이드(2021).pdf",
+      "주요정보통신기반시설_기술적_취약점_분석_평가_방법_상세가이드.pdf"
+    ],
+    "similarity_scores": {
+      "ISMS-P_ACME_Report_v1.0.pdf": 0.018,
+      "국가정보보안기본지침(23.1.31).pdf": 0.015,
+      "소프트웨어_보안약점_진단가이드(2021).pdf": 0.011,
+      "주요정보통신기반시설_기술적_취약점_분석_평가_방법_상세가이드.pdf": 0.012
+    },
+    "best_practices": [
+      "부록을 통한 상세 정보 제공"
+    ],
+    "gaps_identified": [
+      "사고 대응 체계 부재"
+    ]
+  },
+  "overall_assessment": {
+    "grade": "B",
+    "assessment": "양호",
+    "description": "일부 보완이 필요하지만 전반적으로 잘 작성되었습니다.",
+    "compliance_score": 85.71,
+    "priority_actions": [
+      "정기적인 문서 검토 및 업데이트"
+    ]
+  }
+}
